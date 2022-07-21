@@ -1,5 +1,6 @@
-int IRSensor = 2; // connect ir sensor to arduino pin 2
-int LED = 13; // conect Led to arduino pin 13
+const int IRSensor = 2; // connect ir sensor to arduino pin 2
+const int LED = 13; // connect Led to arduino pin 13
+const int rearMotor = 3; // conect Led to arduino pin 13
 
 void setup(){
   Serial.begin(9600);
