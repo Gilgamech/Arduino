@@ -13,8 +13,10 @@ void loop(){
   Serial.println(statusSensor);
   if (statusSensor == 1) {
     digitalWrite(LED, LOW); // LED LOW
+    digitalWrite(rearMotor, HIGH); // LED LOW
   }else{
     digitalWrite(LED, HIGH); // LED High
+    digitalWrite(rearMotor, LOW); // LED LOW
   }
   
 }
